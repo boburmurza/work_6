@@ -24,7 +24,7 @@ void Linear (double k1, double b1, double k2, double b2){
 //double [] Linear(double b1, double b2, double k1, double k2)
 // {  
 //     double [] array = new double [2] ;//создаем массив из 2 элементов
-//      array[0] = (b2 - b) / (k1 -k2); // Нашли X
+//      array[0] = (b2 - b1) / (k1 -k2); // Нашли X
 //       array[1] = k1* array[0] + b1; // Нашли Y
  
 //     return array ;
@@ -34,9 +34,9 @@ void Linear (double k1, double b1, double k2, double b2){
 // Console.Write("введите значение k1:=");
 // double k1 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("введите значение b2:=");
-// double b_2 = Convert.ToInt32(Console.ReadLine());
+// double b2 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("введите значение k2:=");
-// double k_2 = Convert.ToInt32(Console.ReadLine());
+// double k2 = Convert.ToInt32(Console.ReadLine());
 //  double [] array = Linear (b1,k1,b2,k2); // Запускаем Фунцкию 
 // Console.WriteLine($"Точки пересечения прямых: X:{Math.Round (array[0],1)} Y:{Math.Round (array[1],1)}");
 // Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
